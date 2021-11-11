@@ -1,7 +1,3 @@
-def vecMultMatr(v, m)
-
-end
-
 def genMatr(n)
   m = []
 
