@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  surname: MyString
+  dormitory: false
+  experience: 1
+  teaching_experience: 1
+  school: MyString
+  second_language: MyString
+
+two:
+  surname: MyString
+  dormitory: false
+  experience: 1
+  teaching_experience: 1
+  school: MyString
+  second_language: MyString

@@ -1,0 +1,20 @@
+<ul class="student-list">
+  <li>
+    <p>Name</p>
+    <p>Surname</p>
+    <p>Middlename</p>
+    <p>Gender</p>
+    <p>Age</p>
+    <p>Year</p>
+  </li>
+  <% @students.each do |student| %>
+    <li >
+      <p><%= student.name %></p>
+      <p><%= link_to student.surname , student %></p>
+      <p><%= student.middlename %></p>
+      <p><%= student.gender %></p>
+      <p><%= student.age %> y.o.</p>
+      <p><%= student.year %> course</p>
+    </li>
+  <% end %>
+</ul>

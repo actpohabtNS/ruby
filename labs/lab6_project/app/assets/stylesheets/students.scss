@@ -1,0 +1,218 @@
+// Place all the styles related to the Students controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+
+ul{
+  padding: 0;
+}
+
+.student-list{
+  padding: 0px;
+  margin: 0 10px 0 10px;
+}
+
+.student-list li:not(:first-child) {
+  padding: 10px;
+  border-top: 1px solid #272727;
+  display: flex;
+  justify-content: space-between;
+  background-color: #666666;
+  font-size: 18px;
+  color: #EFEFEF;
+}
+
+.student-list li a{
+  text-decoration: none;
+  color: #EFEFEF;
+  font-weight: bold;
+}
+
+.student-list li a:hover{
+  color: #BBBBBB;
+
+}
+
+.student-list li:first-child{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.student-list li p {
+  width: 15%;
+  text-align: center;
+}
+
+.students-criteria{
+  margin-bottom: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #272727;
+  min-height: 100px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.students-criteria li{
+  text-decoration: none;
+  color: #EFEFEF;
+  font-weight: bold;
+  list-style: none;
+}
+
+.students-criteria li a{
+  text-decoration: none;
+  color: #EFEFEF;
+  font-weight: bold;
+}
+
+.students-criteria li a:hover{
+  color: #BBBBBB;
+}
+
+.button-new{
+  display: flex;
+  margin-top: 15px;
+}
+
+.button-new a{
+  margin-right: 10px;
+  margin-left: 10px;
+  min-width: 145px;
+  min-height: 30px;
+  background-color: #BBBBBB;
+  border: 1px solid #272727;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.button-new a:hover{
+  background-color: #666666;
+}
+
+.button-new a:active{
+  background-color: #BBBBBB;
+}
+
+.button-new p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.error{
+  color: #B00100 !important;
+  margin-top: 0 !important;
+  font-size: 12px;
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+}
+
+
+.input-line{
+  width: 177px;
+}
+.wrap{
+
+  text-decoration: none;
+  color: #272727;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button input{
+  margin-right: 10px;
+  margin-left: 10px;
+  min-width: 10%;
+  min-height: 30px;
+  background-color: #BBBBBB;
+  border: 1px solid #272727;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.button input:hover{
+  background-color: #666666;
+}
+
+.button input:active{
+  background-color: #BBBBBB;
+}
+
+.field_with_errors{
+  margin: 0 !important;
+}
+
+.student-info {
+  list-style: none;
+  color: #272727;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.student-info li{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.student-info a{
+  text-decoration: none;
+  color: #272727;
+}
+
+.student-info a:hover{
+  color: #666666;
+}
+
+.student-info a:active{
+  color: #272727;
+}
+
+
+.wrap-info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.delete a:last-child {
+  background-color: #730E15;
+}
+
+.delete a:last-child:hover {
+  background-color: #B00100;
+}
+
+.delete a:last-child:active {
+  background-color: #730E15;
+}
